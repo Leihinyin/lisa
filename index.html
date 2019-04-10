@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Lisa</title>
+		<style>
+			.img1{
+				animation: donghua 5s;
+			}
+			@keyframes donghua{
+				0%{
+					-webkit-filter: brightness(11) grayscale(1) blur(5px);
+				}
+				20%{
+					-webkit-filter: brightness(8) grayscale(1) blur(1px);
+				}
+				40%{
+					-webkit-filter: brightness(6) grayscale(1);	
+				}
+				60%{
+					-webkit-filter: brightness(4) grayscale(1);
+				}
+				80%{
+					-webkit-filter: brightness(2) grayscale(0.6);
+				}
+				100%{
+					-webkit-filter: brightness(1) grayscale(0);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="img/lalisa.jpg"/>
+	</body>
+</html>
